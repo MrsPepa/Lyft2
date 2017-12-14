@@ -9,5 +9,10 @@ $(document).ready(function(){
     $('.first').show();
     $('.second').hide();
   })
-  
+  /*habilitar boton*/
+  $('#fono').keyup(function(){
+    $('#next').addClass('btn-next');
+  })
+  /*
+  })*/
 })

@@ -66,34 +66,54 @@
         </div>
       </div>
       <hr>
-      <div class="btn-group">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <span class="glyphicon glyphicon-chevron-down"></span>
-        </button>
-        <ul class="dropdown-menu">
-          <li id="mexico">
-            <a href="#">
-              <img src="assets/flags/blank.gif" class="flag flag-mx" alt="Mexico"/>
-            </a>
-          </li>
-          <li id="colombia">
-            <a href="#">
-              <img src="assets/flags/blank.gif" class="flag flag-co" alt="Colombia">
-            </a>
-          </li>
-          <li id="peru">
-            <a href="#">
-              <img src="assets/flags/blank.gif" alt="Perú" class="flag flag-pe">
-            </a>
-          </li>
-          <li id="usa">
-            <a href="#">
-              <img src="assets/flags/blank.gif" alt="United States" class="flag flag-us">
-            </a>
-          </li>
-        </ul>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <div class="input-group">
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="assets/flags/blank.gif" alt="Chile" class="flag flag-cl">
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li id="mexico">
+                  <a href="#">
+                    <img src="assets/flags/blank.gif" class="flag flag-mx" alt="Mexico"/>
+                  </a>
+                </li>
+                <li id="colombia">
+                  <a href="#">
+                    <img src="assets/flags/blank.gif" class="flag flag-co" alt="Colombia">
+                  </a>
+                </li>
+                <li id="peru">
+                  <a href="#">
+                    <img src="assets/flags/blank.gif" alt="Perú" class="flag flag-pe">
+                  </a>
+                </li>
+                <li id="usa">
+                  <a href="#">
+                    <img src="assets/flags/blank.gif" alt="United States" class="flag flag-us">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!--fin btn group-->
+            <input type="text" class="form-control fono" id="fono" maxlength="10" placeholder="Phone">
+            <!--fin input group-->
+          </div>
+        </div>
       </div>
-
+      <br>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <p>We'll send a text to verify your phone</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <button type="button submit" class="btn btn-lg disabled" id="next">NEXT</button>
+        </div>
+      </div>
     </div>
 
   </main>

@@ -53,3 +53,18 @@
   margin-left: auto;
   margin-right: auto;
 }
+/*estilo de input */
+.fono {
+  height: 8vh;
+}
+/*/* estilo de boton next */
+.btn-next {
+  width: 70%;
+  background-color: #FF3E80;
+  color: #fff;
+}
+.disabled {
+  width: 70%;
+  background-color: #ccc;
+  color: black;
+}*/

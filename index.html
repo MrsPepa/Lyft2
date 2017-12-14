@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<title>Lyft</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
+  <link rel="stylesheet" href="assets/flags/flags.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -21,7 +23,7 @@
     </div>
   -->
     <!--segunda vista-->
-    <div class="container-fluid logo1">
+    <div class="container-fluid first">
       <div class="row">
         <div class="col-xs-12 col-sm-12">
           <img src="assets/img/logo-white.png" class="logoWhite img-responsive" alt="logo1">
@@ -35,15 +37,65 @@
       <div class="btns container">
         <div class="row">
           <div class="col-xs-6 col-sm-6">
-            <button class="btn btn-default btn-lg btn-responsive" type="button">LOG IN</button>
+            <button class="btn btn-default btn-lg btn-responsive" id="btn1" type="button">LOG IN</button>
           </div>
           <div class="col-xs-6 col-sm-6">
-            <button class="btn btn-default btn-lg btn-responsive" type="button">SING UP</button>
+            <button class="btn btn-default btn-lg btn-responsive" id="btn2" type="button">SING UP</button>
           </div>
+        </div>
+        <div class="row">
+          
         </div>
       </div>
     </div>
-    
+    <!--primera vista sign up-->
+    <div class="container second">
+      <div class="row">
+        <div class="col-xs-2 col-sm-2">
+          <span class="glyphicon glyphicon-menu-left iconPrev"></span>
+        </div>
+        <div class="col-xs-10 col-sm-10">
+          <h3>Sign up</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <div class="parrafo1">
+          <p>Join now for free ride credit</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li id="mexico">
+            <a href="#">
+              <img src="assets/flags/blank.gif" class="flag flag-mx" alt="Mexico"/>
+            </a>
+          </li>
+          <li id="colombia">
+            <a href="#">
+              <img src="assets/flags/blank.gif" class="flag flag-co" alt="Colombia">
+            </a>
+          </li>
+          <li id="peru">
+            <a href="#">
+              <img src="assets/flags/blank.gif" alt="Perú" class="flag flag-pe">
+            </a>
+          </li>
+          <li id="usa">
+            <a href="#">
+              <img src="assets/flags/blank.gif" alt="United States" class="flag flag-us">
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
   </main>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

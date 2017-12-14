@@ -1,4 +1,8 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Imprima', sans-serif;
+}
 /*.logo img {
   width: 74%;
   padding-top: 41vh;
@@ -10,7 +14,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.logo1 {
+.first {
   background-image: url(../img/lyft-fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,13 +25,8 @@
 .lyftlife {
   width: 100%;
 }
-/*
-.log-in, .sign-up {
-  padding: 3vh 5.5vh;
-  border-radius: 4px;
-  margin-bottom: 2%;
-}*/
 
+/* estilos de botones principales */
 .btns .btn {
   background-color: transparent;
   color: #FF00BE;
@@ -35,4 +34,22 @@
   padding: 3vh 5.5vh;
   border-radius: 5px;
   margin-bottom: 1%;
+}
+/* estilos generales de contenedor */
+.second {
+  text-align: center;
+}
+.second h3 {
+  margin-right: 3em;
+}
+/* estilo de icono previo */
+.iconPrev {
+  margin-top: 2.1rem;
+  /*font-size: 1.7em;*/
+}
+/* estilos de join now */
+.parrafo1 {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }

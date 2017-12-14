@@ -3,6 +3,20 @@
   padding: 0;
   font-family: 'Imprima', sans-serif;
 }
+.logo{
+  background: #D70070 ; /* Para browsers que no soportan gradientes */
+  background: -webkit-linear-gradient(left top, #430049 , #E10073 ); /* Para Safari 5.1 a 6.0 */
+  background: -o-linear-gradient(bottom right, #430049 , #E10073 ); /* Para Opera 11.1 a 12.0 */
+  background: -moz-linear-gradient(bottom right,#430049 , #E10073 ); /* Para Firefox 3.6 a 15 */
+  background: linear-gradient(to bottom right, #430049 , #E10073 ); /* Standard syntax */
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+/* z-index: 1;*/
+}
 /*.logo img {
   width: 74%;
   padding-top: 41vh;
@@ -35,7 +49,7 @@
   border-radius: 5px;
   margin-bottom: 1%;
 }
-/* estilos generales de contenedor */
+/* estilos generales de contenedor second */
 .second {
   text-align: center;
 }
@@ -43,7 +57,7 @@
   margin-right: 3em;
 }
 /* estilo de icono previo */
-.iconPrev {
+.iconPrev, .iconPrev1 {
   margin-top: 2.1rem;
   /*font-size: 1.7em;*/
 }
@@ -58,13 +72,45 @@
   height: 8vh;
 }
 /*/* estilo de boton next */
-.btn-next {
+#btn-next {
   width: 70%;
   background-color: #FF3E80;
   color: #fff;
+  height: 3em;
+  border-radius: 6px;
+  border: none;
+  opacity: .65;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
 }
-.disabled {
+.disabled, .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
   width: 70%;
   background-color: #ccc;
   color: black;
-}*/
+  height: 3em;
+  border-radius: 6px;
+  border: none;
+  opacity: .65;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  cursor: not-allowed;
+}
+/* estilos de contenedor third */
+.third {
+  text-align: center;
+}
+.third h3 {
+  margin-right: 3em;
+}
+.third h4 {
+  margin-right: 1em;
+}
+/* estilos de input */
+.inputLab {
+  margin-left: 30%!important;
+}
+#lab3 {
+  width: 35%;
+}
